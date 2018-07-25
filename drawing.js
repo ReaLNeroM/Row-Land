@@ -10,6 +10,7 @@ function init(){
 
 	main();
 }
+
 document.onclick = init;
 
 function main(){

@@ -1,9 +1,10 @@
 var i = 0;
 
 function init(){
-	var audio = new Audio('Keep Rollin.mp3');
+	document.getElementById("start-text").style = "display: none;"
 	document.getElementById("roller").style = "transform: rotate(" + i + "deg)";
 
+	var audio = new Audio('Keep Rollin.mp3');
 	audio.play();
 	audio.loop = true;
 
